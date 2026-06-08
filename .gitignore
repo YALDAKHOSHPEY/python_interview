@@ -1,0 +1,89 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+venv.bak/
+env.bak/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Project specific - User data (مهم: اطلاعات کاربران رو نگه ندار)
+data/user_progress.json
+data/user_history.json
+data/*_progress.json
+data/*_history.json
+
+# Reports - گزارشات شخصی کاربران
+reports/
+reports/*.json
+reports/*.csv
+reports/*.html
+reports/*.pdf
+!reports/.gitkeep
+
+# Log files
+*.log
+logs/
+debug.log
+error.log
+
+# Backup files
+*.bak
+*.backup
+*.old
+data/questions.backup.json
+data/questions.old.json
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+*.cover
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Distribution
+dist/
+build/
+*.egg-info/
+*.egg
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.pid
+
+# Secrets (اگه از کلید مخفی استفاده کردی)
+*.secret.json
+*.key
+*.pem
+secrets/

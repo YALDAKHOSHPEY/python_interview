@@ -1,0 +1,109 @@
+{
+    "python": {
+      "beginner": [
+        {
+          "id": "py_001",
+          "question": "What is the output of: print(2**3**2)?",
+          "type": "mcq",
+          "options": ["64", "512", "81", "729"],
+          "correct_answer": "512",
+          "explanation": "Exponentiation is right-associative: 2**(3**2) = 2**9 = 512",
+          "difficulty": 1,
+          "points": 10,
+          "tags": ["operators"]
+        },
+        {
+          "id": "py_002",
+          "question": "What is the output of: print(type(10/3))?",
+          "type": "mcq",
+          "options": ["int", "float", "complex", "Error"],
+          "correct_answer": "float",
+          "explanation": "Division always returns float in Python 3",
+          "difficulty": 1,
+          "points": 10,
+          "tags": ["types"]
+        },
+        {
+          "id": "py_003",
+          "question": "Which keyword is used to define a function?",
+          "type": "mcq",
+          "options": ["def", "func", "define", "function"],
+          "correct_answer": "def",
+          "explanation": "'def' is the function definition keyword",
+          "difficulty": 1,
+          "points": 10,
+          "tags": ["functions"]
+        },
+        {
+          "id": "py_004",
+          "question": "What is the correct way to create a list?",
+          "type": "mcq",
+          "options": ["(1,2,3)", "[1,2,3]", "{1,2,3}", "<1,2,3>"],
+          "correct_answer": "[1,2,3]",
+          "explanation": "Square brackets are used for lists",
+          "difficulty": 1,
+          "points": 10,
+          "tags": ["lists"]
+        },
+        {
+          "id": "py_005",
+          "question": "What does 'pip' stand for?",
+          "type": "mcq",
+          "options": ["Pip Installs Packages", "Python Install Program", "Package Installer for Python", "Python Index Package"],
+          "correct_answer": "Pip Installs Packages",
+          "explanation": "pip is the package installer for Python",
+          "difficulty": 1,
+          "points": 10,
+          "tags": ["packages"]
+        }
+      ],
+      "intermediate": [
+        {
+          "id": "py_006",
+          "question": "What is list comprehension?",
+          "type": "descriptive",
+          "correct_answer": "A concise way to create lists using an expression followed by a for clause",
+          "explanation": "Example: [x*2 for x in range(10)]",
+          "difficulty": 2,
+          "points": 15,
+          "tags": ["comprehension"]
+        },
+        {
+          "id": "py_007",
+          "question": "Difference between 'is' and '=='?",
+          "type": "descriptive",
+          "correct_answer": "'==' checks value equality, 'is' checks object identity (same memory location)",
+          "explanation": "Use 'is' for None comparison, '==' for values",
+          "difficulty": 2,
+          "points": 15,
+          "tags": ["operators"]
+        }
+      ]
+    },
+    "algorithms": {
+      "beginner": [
+        {
+          "id": "alg_001",
+          "question": "Time complexity of binary search?",
+          "type": "mcq",
+          "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+          "correct_answer": "O(log n)",
+          "explanation": "Binary search halves the search space each time",
+          "difficulty": 2,
+          "points": 15,
+          "tags": ["searching"]
+        },
+        {
+          "id": "alg_002",
+          "question": "Which data structure uses LIFO?",
+          "type": "mcq",
+          "options": ["Queue", "Stack", "Array", "Tree"],
+          "correct_answer": "Stack",
+          "explanation": "Last In First Out - like a stack of plates",
+          "difficulty": 1,
+          "points": 10,
+          "tags": ["data structures"]
+        }
+      ]
+    }
+  }

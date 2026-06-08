@@ -1,0 +1,39 @@
+{
+    "categories": [
+      {
+        "name": "python",
+        "display_name": "Python Programming",
+        "description": "Core Python concepts, syntax, and best practices",
+        "icon": "🐍",
+        "difficulty_range": [1, 5]
+      },
+      {
+        "name": "algorithms",
+        "display_name": "Algorithms & Data Structures",
+        "description": "Sorting, searching, trees, graphs, and algorithmic thinking",
+        "icon": "📊",
+        "difficulty_range": [2, 5]
+      },
+      {
+        "name": "system_design",
+        "display_name": "System Design",
+        "description": "Scalability, databases, caching, and architecture",
+        "icon": "🏗️",
+        "difficulty_range": [3, 5]
+      },
+      {
+        "name": "databases",
+        "display_name": "Databases & SQL",
+        "description": "SQL queries, indexing, normalization, and NoSQL",
+        "icon": "🗄️",
+        "difficulty_range": [2, 4]
+      },
+      {
+        "name": "oop",
+        "display_name": "Object Oriented Programming",
+        "description": "Classes, inheritance, polymorphism, and design patterns",
+        "icon": "🎭",
+        "difficulty_range": [2, 4]
+      }
+    ]
+  }

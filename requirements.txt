@@ -1,0 +1,5 @@
+# No external dependencies - pure Python 3.8+
+# For future enhancements:
+# colorama==0.4.6  # برای ویندوز
+# prettytable==3.9.0  # برای جدول‌های زیبا
+# tqdm==4.66.1  # برای progress bar
