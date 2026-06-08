@@ -34,7 +34,7 @@ An advanced, professional-grade terminal-based interview preparation system with
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/professional-interview-hub.git
+git clone https://github.com/YALDAKHOSHPEY/professional-interview-hub.git
 cd professional-interview-hub
 
 # Run the application
